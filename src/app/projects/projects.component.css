@@ -1,0 +1,32 @@
+
+.projects-page h2 {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color: #C69B60;
+    font-size: 24px;
+}
+.projects-page__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.projects-page__list-item {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-bottom: 30px;
+    color: rgb(20, 20, 20);
+}
+.projects-page__list-item:not(:nth-child(2n)) {
+    margin-right: 50px;
+}
+.projects-page__list-item a{
+    text-decoration: none;
+    color: #6B7C66;
+    margin-bottom: 5px;
+}
+.projects-page__list-item span{
+    margin-bottom: 15px;
+    font-weight: 600;
+}

@@ -1,0 +1,12 @@
+<li class="experience-item">
+    <span class="experience-item__date">{{item.startAt}} - {{item.endAt}}</span>
+    <div class="experience-item__line" ></div>
+    <img src="../../assets/img/drop.png" alt="">
+    <div class="experience-item__info">
+        <span class="experience-item__companyName">{{item.companyName}}</span>
+    <span>{{item.position}}</span>
+    <ul class="experience-item__obligation" >
+        <li *ngFor='let obligation of item.obligations '>{{obligation}}</li>
+    </ul>
+    </div>
+</li>

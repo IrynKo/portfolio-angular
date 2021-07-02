@@ -1,0 +1,66 @@
+.home-page {
+    display: flex; 
+    position: relative; 
+}
+.home-page::after {
+    content: url(../../assets/img/drop.png); 
+    position: absolute;
+    right: 550px;
+    top: 200px;
+}
+.home-page::before {
+    content: url(../../assets/img/drop.png); 
+}
+
+.home-page__left {
+    flex: 2;
+    display: flex;
+    padding-top: 70px;
+    flex-direction: column;
+    align-items: center;
+}
+.home-page__left p {
+    margin-bottom: 30px;
+    margin-left: -30px;
+    width: 170px;
+    font-size: 20px;
+}
+.home-page__left div {
+    margin-bottom: 40px;
+    margin-left: -120px;
+}
+.home-page__icon {
+    margin-right: 10px;
+    font-size: 30px;
+    color: #000;
+}
+.home-page__right {
+    flex: 2;
+}
+.home-page__button  {
+    width: 190px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #C69B60;
+    margin-left: -10px;
+}
+.home-page__greeting span {
+    font-weight: 600;
+}
+.home-page__left-square {
+    position: absolute;
+    left: 60%;
+    width: 300px;
+    height: 300px;
+    background-color: #6B7C66;
+}
+.home-page__foto {
+    left: 50%;
+    position: absolute;
+    width: 350px;
+}
+.home-page__button a {
+text-decoration: none;
+color: #fff;
+}

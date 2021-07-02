@@ -1,0 +1,36 @@
+<section>
+    <div class="feedback-container" *ngIf="hasBeenSubmited">
+        <p class="success">
+            <i class="fas fa-times" (click)="closeFeedbackMessage()"></i>
+            <span >Thank you for contacting me, I'll reply to you very soon.</span>
+        </p>
+    </div>
+    <form class="contact-form" [formGroup]='form' (ngSubmit)="onSubmit()">
+        <div>  
+        <label for="name">Name  </label>
+            <input type="text" name='name' formControlName='name' placeholder="Name">
+            <small *ngIf="name?.touched && name?.errors?.required" class="text-danger" >The name is required.</small>
+            <small *ngIf="name?.touched && name?.errors?.minlength" class="text-danger" >Please, provide a valid name.</small>
+        </div>  
+        <div>
+            <label for="phoneNumber">Phone Number</label>
+            <input type="text" name='phoneNumber' formControlName='phoneNumber' placeholder="Phone Number">
+            <small *ngIf="phone?.touched && phone?.errors?.required" class="text-danger" >The phone number is required.</small>
+            <small *ngIf="phone?.touched && phone?.errors?.minlength || phone?.errors?.maxlength" class="text-danger" >Please, provide a valid phone number.</small>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name='email' formControlName='email' placeholder="Email">
+            <small *ngIf="email?.touched && email?.errors?.required" class="text-danger" >The name is required.</small>
+            <small *ngIf="email?.touched && email?.errors?.pattern" class="text-danger" >Please, provide a valid email.</small>
+        </div>
+        <div>
+            <label for="message">Message</label>
+            <textarea type="text" rows="50" name='message' formControlName='message' placeholder="Write here your message... I will reply to you soon."></textarea>
+            <small *ngIf="message?.touched && message?.errors?.required" class="text-danger" >The name is required.</small>
+        </div>
+        <button type='submit' [disabled]="form.invalid">
+            Send
+        </button>
+    </form>
+</section>

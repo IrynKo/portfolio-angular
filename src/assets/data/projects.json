@@ -1,0 +1,19 @@
+[
+    {
+        "link": "https://github.com/IrynKo/Jood",
+        "language": "HTML/CSS",
+        "description": "HTML and CSS project Jood. Used adaptive layout, semantic markup, mobile first strategy, FlexBox, BEM"
+       
+    },
+    {
+        "link": "https://github.com/IrynKo/ECommerce",
+        "language": "Vue/NodeJS",
+        "description": "E-commerce website. Used for front-end part Vue, Vuex, VueRouter and for back-end part NodeJS, MongoDB, Mongoose"       
+    },
+    {
+        "link": "https://github.com/IrynKo/To-Do-List",
+        "language": "JavaScript",
+        "description": "To-do List. Used Vanila JS, JSONPlaceholder"       
+    }
+    
+]

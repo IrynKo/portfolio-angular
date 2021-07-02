@@ -1,0 +1,13 @@
+.header{
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.header-menu__logo a {
+text-decoration: none;
+color: black;
+}

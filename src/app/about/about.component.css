@@ -1,0 +1,38 @@
+
+.about-page h2 {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color: #6B7C66;
+    font-size: 24px;
+}
+.about-page p {
+    margin-bottom: 100px;
+    width: 70%;
+}
+.about-page i  {
+    font-size: 30px;
+    margin-right: 50px;
+}
+.about-page__tech-skills{
+    display: flex;
+    margin-bottom: 50px;
+ }
+.about-page__hobbies{
+    display: flex;
+   
+}
+.about-page__hobby-item {
+   display: flex;
+   flex-direction: column;
+    }
+h4{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    color: #C69B60;
+    margin-bottom: 30px;
+}
+.about-page__hobby-item i{
+font-size: 30px;
+margin-right: 50px;
+}

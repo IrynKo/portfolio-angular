@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";  
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFAF5;
+}
+p {
+    margin: 0;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.nav-bar {
+    display: flex;
+}
+.nav-bar li{
+margin-right: 15px;
+}
+.nav-bar li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    }
+.nav-bar li:nth-last-child(){
+    margin-right: 0;
+    }

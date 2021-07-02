@@ -1,0 +1,33 @@
+
+[
+   { "description":"Front-End Developer with good hands-on experience and knowledge in HTML, CSS, JavaScript, React. JQuery, JSON. I am a fast learner, very analytical with structured working method.",
+       "skillsIcons": ["fab fa-js-square", 
+        "fab fa-react",
+        "fab fa-css3-alt", 
+        "fab fa-github",
+        "fab fa-html5",
+        "fab fa-vuejs"
+        ],
+        "hobbies": [        
+            {
+                "icon": "fas fa-biking",
+                "title": "Cycling"
+            },
+            {
+                "icon": "fas fa-dumbbell",
+                "title": "Gym"
+            },
+            {
+                "icon": "fas fa-suitcase-rolling",
+                "title": "Travel"
+            },
+            {
+                "icon": "fas fa-book",
+                "title": "Read"
+            },
+            {
+                "icon": "fas fa-palette",
+                "title": "Painting"
+            }
+        ]}
+]

@@ -1,0 +1,13 @@
+<section class="projects-page">
+    <div class="container">
+    <h2>Projects</h2>
+    <ul class="projects-page__list">
+        <li class="projects-page__list-item"*ngFor='let project of projects;  let idx=index'>
+            <!--<small>{{idx+1}}.</small>-->
+            <a href="{{project.link}}">{{project.link}}</a>
+            <span>[{{project.language}}]</span>
+            <p>{{project.description}}</p>
+        </li>
+    </ul>
+</div>
+</section>

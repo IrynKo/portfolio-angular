@@ -1,0 +1,19 @@
+<section class="container about-page">
+    <h2>About me</h2>
+    <div *ngFor='let item of about'>
+    <p>{{item.description}}</p>
+    <h4>Tech skills</h4>
+    <ul class="about-page__tech-skills">
+   <li *ngFor='let skill of item.skillsIcons' >
+       <i class="{{skill}}"></i>
+       <!--<img src="{{skill}}" alt="">-->
+    </li>
+    </ul>
+    <h4>Hobbies</h4>
+    <ul class="about-page__hobbies">
+        <li class="about-page__hobby-item" *ngFor='let hobby of item.hobbies' >
+            <i class="{{hobby.icon}}"></i>
+         </li>
+         </ul>
+</div>
+</section>
