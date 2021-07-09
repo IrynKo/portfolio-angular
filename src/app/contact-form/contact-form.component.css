@@ -37,6 +37,13 @@
     background-color: #6B7C66;
     color: white;
     text-transform: uppercase;
+    cursor: pointer;
+
+}
+.contact-form button:disabled {
+    background-color: #95a790;
+    cursor: alias;
+    
 
 }
 .feedback-container {
