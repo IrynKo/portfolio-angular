@@ -25,6 +25,11 @@
             <small *ngIf="email?.touched && email?.errors?.pattern" class="text-danger" >Please, provide a valid email.</small>
         </div>
         <div>
+            <label for="email">Subject</label>
+            <input type="text" name='subject' formControlName='subject' placeholder="Subject">
+            <small *ngIf="subject?.touched && subject?.errors?.required" class="text-danger" >The subject is required.</small>
+        </div>
+        <div>
             <label for="message">Message</label>
             <textarea type="text" rows="50" name='message' formControlName='message' placeholder="Write here your message... I will reply to you soon."></textarea>
             <small *ngIf="message?.touched && message?.errors?.required" class="text-danger" >The name is required.</small>

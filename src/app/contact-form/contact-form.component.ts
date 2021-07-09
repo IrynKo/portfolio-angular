@@ -24,6 +24,7 @@ export class ContactFormComponent implements OnInit {
         Validators.required,
         Validators.pattern("^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$")
       ]],
+      subject: ['', [Validators.required]],
       message:['', [Validators.required]],
       references: this.fb.array([this.fb.control('')])
     })
@@ -42,6 +43,9 @@ export class ContactFormComponent implements OnInit {
   }
   get phone() {
     return this.form.get('phoneNumber');
+  }
+  get subject() {
+    return this.form.get('subject');
   }
   get message() {
     return this.form.get('message');

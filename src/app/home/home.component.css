@@ -5,8 +5,8 @@
 .home-page::after {
     content: url(../../assets/img/drop.png); 
     position: absolute;
-    right: 550px;
-    top: 200px;
+    right: 50px;
+    top: 300px;
 }
 .home-page::before {
     content: url(../../assets/img/drop.png); 
